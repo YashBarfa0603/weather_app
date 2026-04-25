@@ -14,23 +14,21 @@ A modern Flutter Weather Application that delivers real-time weather updates wit
 🔄 Pull-to-refresh functionality
 🧠 Smart AI Features
 Generates natural language weather summaries
-Provides:
 👕 Clothing suggestions
 🎯 Activity recommendations
-Displays mood & comfort insights
+😊 Mood & comfort insights
 
 These features are implemented using rule-based intelligence in the model layer
 
 🎨 UI & Design
-🧊 Glassmorphism design using BackdropFilter
-🌈 Dynamic gradients based on weather conditions
-🎯 Clean, modern, and responsive layout
-⚡ Improved UI/UX using Stitch for better visual consistency and layout refinement
+🧊 Glassmorphism using BackdropFilter
+🌈 Dynamic gradients based on weather
+📱 Clean and responsive layout
+⚡ Improved UI/UX using Stitch
 🛠️ Tech Stack
 Flutter (Dart)
-REST API — OpenWeatherMap
-Custom UI system (Glass + Gradients)
-fl_chart for data visualization
+OpenWeatherMap API
+fl_chart (for graphs)
 📂 Project Structure
 lib/
 ├── main.dart
@@ -53,30 +51,23 @@ lib/
     └── insights_screen.dart
 ⚙️ How It Works
 User opens the app
-App fetches weather data via API
-JSON is parsed into Dart models
-UI updates dynamically with:
-Weather info
+App fetches weather data from API
+JSON is converted into Dart models
+UI updates with:
+Weather data
 Forecast
 AI insights
-🔧 Installation & Setup
+🔧 Installation
 git clone https://github.com/YashBarfa0603/weather_app.git
 cd weather_app
 flutter pub get
 flutter run
 🔑 API Setup
-Get API key from OpenWeatherMap
-Add inside:
+
+Add your API key in:
+
 weather_servic.dart
 final String apiKey = "YOUR_API_KEY";
-📊 Core Modules
-Module	Description
-WeatherServices	API integration
-WeatherModel	Data + AI logic
-ForecastModel	Forecast processing
-Homepage	Main UI
-InsightsScreen	AI insights
-Widgets	Reusable components
 🔮 Future Improvements
 📍 Auto location detection
 🔔 Weather alerts

@@ -1,35 +1,78 @@
-🌤️ SkyCast Pro — AI Powered Weather App
+# 🌤️ SkyCast Pro — AI Powered Weather App
 
 A modern Flutter Weather Application that delivers real-time weather updates with AI-based insights, smart recommendations, and enhanced UI using Stitch.
 
-🚀 Features
-🌍 Search weather by city or location
-📡 Real-time weather data using API
-📊 5-day forecast with charts & hourly data
-🤖 AI-powered weather briefing
-👕 Outfit & activity recommendations
-🌗 Dark / Light mode toggle
-✨ Glassmorphism UI with gradients
-🎨 UI enhanced using Stitch (AI UI optimization tool)
-🔄 Pull-to-refresh functionality
-🧠 Smart AI Features
-Generates natural language weather summaries
-👕 Clothing suggestions
-🎯 Activity recommendations
-😊 Mood & comfort insights
+---
 
-These features are implemented using rule-based intelligence in the model layer
+## 🚀 Features
 
-🎨 UI & Design
-🧊 Glassmorphism using BackdropFilter
-🌈 Dynamic gradients based on weather
-📱 Clean and responsive layout
-⚡ Improved UI/UX using Stitch
-🛠️ Tech Stack
-Flutter (Dart)
-OpenWeatherMap API
-fl_chart (for graphs)
-📂 Project Structure
+- 🌍 Search weather by city or location  
+- 📡 Real-time weather data using API  
+- 📊 5-day forecast with charts & hourly data  
+- 🤖 AI-powered weather briefing  
+- 👕 Outfit & activity recommendations  
+- 🌗 Dark / Light mode toggle  
+- ✨ Glassmorphism UI with gradients  
+- 🎨 UI enhanced using Stitch (AI UI optimization tool)  
+- 🔄 Pull-to-refresh functionality  
+
+---
+
+## 🧠 Smart AI Features
+
+- Generates natural language weather summaries  
+- 👕 Clothing suggestions  
+- 🎯 Activity recommendations  
+- 😊 Mood & comfort insights  
+
+> These features are implemented using rule-based intelligence in the model layer  
+
+---
+
+## 🎨 UI & Design
+
+- 🧊 Glassmorphism using `BackdropFilter`  
+- 🌈 Dynamic gradients based on weather  
+- 📱 Clean and responsive layout  
+- ⚡ Improved UI/UX using Stitch  
+
+---
+
+## 📸 App Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/home.png" width="300"/>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/forecast.png" width="300"/>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/search.png" width="300"/>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/insights.png" width="300"/>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/details.png" width="300"/>
+</p>
+
+---
+
+## 🛠️ Tech Stack
+
+- Flutter (Dart)  
+- OpenWeatherMap API  
+- fl_chart (for graphs)  
+
+---
+
+## 📂 Project Structure
+
+```bash
 lib/
 ├── main.dart
 ├── theme.dart
@@ -49,7 +92,8 @@ lib/
     ├── homepage.dart
     ├── search_screen.dart
     └── insights_screen.dart
-⚙️ How It Works
+
+ ## ⚙️ How It Works
 User opens the app
 App fetches weather data from API
 JSON is converted into Dart models
@@ -57,6 +101,7 @@ UI updates with:
 Weather data
 Forecast
 AI insights
+
 🔧 Installation
 git clone https://github.com/YashBarfa0603/weather_app.git
 cd weather_app

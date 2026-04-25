@@ -2,9 +2,10 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:weather_app/model/weather_model.dart';
 import 'package:weather_app/model/forecast_model.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class WeatherServices {
-  final String apiKey = process.env.API_KEY;
+  final String apiKey = dotenv.env['API_KEY']!;
   static const String _baseUrl = 'https://api.openweathermap.org/data/2.5';
 
  

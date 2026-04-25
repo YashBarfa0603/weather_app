@@ -41,23 +41,28 @@ A modern Flutter Weather Application that delivers real-time weather updates wit
 ## 📸 App Screenshots
 
 <p align="center">
-  <img src="assets/screenshots/home.png" width="300"/>
+  <img src="assets/screenshots/home.png" width="300"/><br/>
+  <b>🏠 Home Screen</b>
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/forecast.png" width="300"/>
+  <img src="assets/screenshots/forecast.png" width="300"/><br/>
+  <b>📊 Forecast & Weather Details</b>
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/search.png" width="300"/>
+  <img src="assets/screenshots/search.png" width="300"/><br/>
+  <b>🔍 Search Screen</b>
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/insights.png" width="300"/>
+  <img src="assets/screenshots/insights.png" width="300"/><br/>
+  <b>🤖 AI Insights</b>
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/details.png" width="300"/>
+  <img src="assets/screenshots/details.png" width="300"/><br/>
+  <b>📅 Detailed Forecast</b>
 </p>
 
 ---
